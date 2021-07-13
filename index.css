@@ -2,3 +2,42 @@ body {
     font-family: poppins, sans-serif;
 
 }
+.name{
+    font-size: 60px;
+    color: orange;
+}
+.my-picture{
+    width: 400px;
+    height: 400px;
+}
+
+h3{
+    color: orange;
+}
+section{
+    width: 145000px;
+    height: 500px;
+    
+
+}
+.box{
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin-left:100px;
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 10px;
+}
+.p{
+    margin-left: 20px;
+}
+#id-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,red);
+    border-image-slice: 1;
+}
+#id{
+    border-left: 7px solid ;
+    border-image: linear-gradient(red,blue);
+    border-image-slice: 1;
+}
