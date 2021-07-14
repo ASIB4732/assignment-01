@@ -3,7 +3,12 @@ body {
 
 }
 
-.nam {
+section {
+    height: 500px;
+    padding-bottom: 250px;
+}
+
+.about {
     font: size 50px;
 }
 
@@ -62,7 +67,7 @@ table {
     border-collapse: collapse;
     font-size: 17px;
     margin-left: 538px;
-    margin-top: 100px;
+    margin-top: 40px;
 
 }
 
@@ -75,9 +80,13 @@ th {
 body {
     background: url("new folder/images.jpg");
     background-repeat: no-repeat;
-    background-size: 1550px;
+    background-size: 1550px 4370px;
 }
 
+.class {
+    color: orange;
+    font-size: 50px;
+}
 
 .image {
     width: 450px;
@@ -86,15 +95,56 @@ body {
     box-shadow: 10px 10px 70px rgb(102, 85, 85);
     border-radius: 10px;
 }
-.boximages{
+
+.boximages {
     width: 450px;
     height: 300px;
-    margin-left: 15%;
+    margin-left: 13%;
     box-shadow: 10px 10px 70px rgb(102, 85, 85);
-    border-radius: 10px;
-    margin-top: 7%;
+    border-radius: 8px;
+    margin-top: 3%;
 }
-.class{
-    color: orange;
-    font-size: 100px;
+
+a:visited {
+    color: blue;
+}
+
+.link {
+    border: 5px solid rgb(182, 5, 5);
+    width: 25%;
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+
+li:nth-child(2n+1) {
+    background-color: green;
+}
+
+.img {
+    width: 500px;
+    height: 400px;
+}
+
+#texttext {
+    width: 500px;
+    height: 500px;
+}
+.div2{
+    float: left;
+    margin-left: 200px;
+    margin-top: 150px;
+
+}
+.form{
+    margin-top: 10px;
+}
+button{
+    font-size: 20PX;
+background-color: orange;
+margin-left: 650PX;
+}
+#footer{
+    margin-left: 550px;
 }
